@@ -1,16 +1,7 @@
-# chat
+受信時の動作未実装
 
-A new Flutter project.
+アカウント登録時、既に登録されたメールアドレスを使用してる場合の処理未実装
+=>エラーで落ちる
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+flutterのversion上げたことでdebug時に廃止になったコードがあるという警告文が出される
+=>修正したところ、コードが動かなくなったためそのまま使用（起動に支障なし）
